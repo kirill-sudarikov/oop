@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 4.1)
+﻿cmake_minimum_required(VERSION 4.1)
 
 set(CMAKE_CXX_MODULE_STD ON)
 
@@ -25,6 +25,7 @@ endif()
 
 add_subdirectory("03-functions")
 add_subdirectory("04-classes")
+add_subdirectory("08-subtype-polymorphism")
 add_subdirectory("09-vcpkg")
 add_subdirectory("10-sfml")
 add_subdirectory("05-operator-overloading")
