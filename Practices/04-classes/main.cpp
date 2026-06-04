@@ -16,7 +16,8 @@ private:
     _denominator /= gcd;
 
     if (_denominator < 0) {
-      _denominator = std::abs(_denominator);
+      _numerator *= -1;
+      _denominator *= -1;
     }
 
     if (_denominator == 0) {
