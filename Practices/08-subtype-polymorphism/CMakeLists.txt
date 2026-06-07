@@ -11,4 +11,5 @@ PRIVATE FILE_SET "modules" TYPE CXX_MODULES FILES
 "src/IEnumerator.cppm"
 "src/IEnumerable.cppm"
 "src/ICollection.cppm"
+"src/List.cppm"
 )
