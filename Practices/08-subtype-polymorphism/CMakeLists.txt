@@ -12,4 +12,5 @@ PRIVATE FILE_SET "modules" TYPE CXX_MODULES FILES
 "interfaces/IEnumerable.cppm"
 "interfaces/ICollection.cppm"
 "containers/List.cppm"
+"containers/HashSet.cppm"
 )
