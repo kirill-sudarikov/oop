@@ -6,6 +6,7 @@ import ICollection;
 
 import List;
 import HashSet;
+import Dictionary;
 import Stack;
 import Queue;
 

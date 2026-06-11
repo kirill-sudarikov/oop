@@ -91,4 +91,20 @@ public:
 
     return _list[index];
   }
+
+  void Insert(std::size_t index, const T& item) {
+    if (index > _list.size()) {
+      throw std::out_of_range("Ошибка в List Insert(): неверный индекс");
+    }
+
+    _list.insert(_list.begin() + index, item);
+  }
+
+  void RemoveAt(std::size_t index) {
+    if (index >= _list.size()) {
+      throw std::out_of_range("Ошибка в List RemoveAt(): неверный индекс");
+    }
+
+    _list.erase(_list.begin() + index);
+  }
 };

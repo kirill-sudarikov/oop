@@ -15,4 +15,5 @@ PRIVATE FILE_SET "modules" TYPE CXX_MODULES FILES
 "containers/HashSet.cppm"
 "containers/Stack.cppm"
 "containers/Queue.cppm"
+"containers/Dictionary.cppm"
 )
