@@ -63,10 +63,6 @@ public:
   }
 
   T Pop() {
-    if (_stack.empty()) {
-      throw std::out_of_range("Ошибка в Stack Pop(): стeк пуст");
-    }
-
     T peek = Peek();
     _stack.pop_back();
     return peek;
