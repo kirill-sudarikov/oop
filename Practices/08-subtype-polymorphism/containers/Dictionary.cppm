@@ -12,6 +12,8 @@ private:
   TValue _value;
 
 public:
+  KeyValuePair() = default;
+
   KeyValuePair(const TKey& key, const TValue& value)
       : _key(key), _value(value) {}
 
