@@ -8,7 +8,9 @@ target_compile_features("${PROJECT_NAME}" PUBLIC cxx_std_23)
 
 target_sources("${PROJECT_NAME}"
 	PRIVATE 
-		"main.cpp" 
+		"src/main.cpp" 
 	PRIVATE FILE_SET "modules" TYPE CXX_MODULES FILES
-		"upload_file.cppm"
- "count_unique_words.cppm" "find_most_frequent_words.cppm")
+		"src/file/upload_file.cppm"
+ "src/analyzer/count_unique_words.cppm"
+ "src/analyzer/find_most_frequent_words.cppm"
+ )

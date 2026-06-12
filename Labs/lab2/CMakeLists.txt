@@ -6,4 +6,8 @@ add_executable("${PROJECT_NAME}")
 
 target_compile_features("${PROJECT_NAME}" PUBLIC cxx_std_23)
 
-target_sources("${PROJECT_NAME}" PRIVATE "main.cpp" PRIVATE FILE_SET "task" TYPE CXX_MODULES FILES "task.cppm")
+target_sources("${PROJECT_NAME}" PRIVATE "src/main.cpp"
+PRIVATE FILE_SET "modules" TYPE CXX_MODULES FILES
+"src/vector_utils.cppm"
+"src/vector_analysis.cppm"
+)

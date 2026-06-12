@@ -10,7 +10,7 @@
     {
       "name": "vcpkg",
       "hidden": true,
-      "toolchainFile": "$env{VCPKG_ROOT}/scripts/buildsystems/vcpkg.cmake"
+      "toolchainFile": "/home/kirill/vcpkg/scripts/buildsystems/vcpkg.cmake"
     },
     {
       "name": "debug",
